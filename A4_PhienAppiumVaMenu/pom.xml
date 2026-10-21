@@ -20,6 +20,26 @@
             <version>9.3.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- Ghim Selenium đúng 4.19.0 (bản java-client 9.3.0 được build cùng).
+             Không ghim thì Maven lấy bản 4.x mới nhất và bị thiếu ContextAware/LocationContext. -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>4.19.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-remote-driver</artifactId>
+            <version>4.19.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>4.19.0</version>
+            <scope>test</scope>
+        </dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
