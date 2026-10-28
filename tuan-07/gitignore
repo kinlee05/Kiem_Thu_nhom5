@@ -1,0 +1,10 @@
+# Gradle cache và file build
+.gradle/
+build/
+
+# File cấu hình cá nhân của VS Code
+.vscode/
+
+# File tạm và log
+*.log
+*.tmp

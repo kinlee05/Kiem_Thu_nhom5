@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="T7A3_ThanhToanTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-28T00:53:21" hostname="MSI" time="119.836">
+  <properties/>
+  <testcase name="A3_01_DienDuThongTin" classname="T7A3_ThanhToanTest" time="4.919"/>
+  <testcase name="A3_02_ThieuThongTinBaoLoi[0](, Nguyen, 10000, First Name is required)" classname="T7A3_ThanhToanTest" time="3.533"/>
+  <testcase name="A3_02_ThieuThongTinBaoLoi[1](An, , 10000, Last Name is required)" classname="T7A3_ThanhToanTest" time="3.627"/>
+  <testcase name="A3_02_ThieuThongTinBaoLoi[2](An, Nguyen, , Postal Code is required)" classname="T7A3_ThanhToanTest" time="3.607"/>
+  <testcase name="A3_02_ThieuThongTinBaoLoi[3](, , , First Name is required)" classname="T7A3_ThanhToanTest" time="1.607"/>
+  <testcase name="A3_03_XoaNoiDungBangClear" classname="T7A3_ThanhToanTest" time="5.18"/>
+  <testcase name="A3_04_HuyQuayLaiManHinhSanPham" classname="T7A3_ThanhToanTest" time="1.27"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
